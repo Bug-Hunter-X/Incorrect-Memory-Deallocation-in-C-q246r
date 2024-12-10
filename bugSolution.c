@@ -1,0 +1,1 @@
+int main() {    int x = 10;    int *ptr = &x;    *ptr = 20;    printf("%d\n", x); // Output: 20    // Correct: Do NOT free stack-allocated memory    // free(ptr); //This line is removed   return 0; }
